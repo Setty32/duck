@@ -1,7 +1,5 @@
 FROM haskell:8
 
-# RUN git clone https://repo.cleverlance.com/git/clv/dtag.reservation.chatbot.duckling.git
-
 RUN mkdir /log
 
 WORKDIR /duckling
